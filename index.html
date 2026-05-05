@@ -4,99 +4,45 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Дагестан 360 — едем вместе</title>
 
 <style>
-body {
-margin:0;
-font-family:-apple-system,BlinkMacSystemFont,Arial;
-background:#0b0b0b;
-color:white;
-}
-
-.section {
-padding:100px 20px;
-max-width:1100px;
-margin:auto;
-}
-
+body {margin:0;font-family:-apple-system,Arial;background:#0b0b0b;color:#fff;}
+.section {padding:90px 20px;max-width:1100px;margin:auto;}
 .hero {
 height:100vh;
 display:flex;
 align-items:center;
 background:
-linear-gradient(180deg,rgba(0,0,0,0.3),rgba(0,0,0,0.9)),
+linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),
 url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');
 background-size:cover;
 }
-
-h1 {
-font-size:56px;
-line-height:1.1;
-}
-
-h2 {
-font-size:36px;
-margin-bottom:20px;
-}
-
-.price {
-font-size:42px;
-color:#f5c542;
-margin-top:20px;
-}
-
-.sub {
-color:#aaa;
-margin-top:10px;
-}
-
-.grid {
-display:grid;
-gap:16px;
-grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-}
-
+h1 {font-size:56px;line-height:1.1;}
+h2 {font-size:34px;margin-bottom:20px;}
+.price {font-size:40px;color:#f5c542;margin-top:20px;}
+.sub {color:#aaa;margin-top:10px;}
+.grid {display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));}
 .card {
 background:#151515;
-padding:22px;
+padding:20px;
 border-radius:16px;
 transition:0.3s;
 }
-
-.card:hover {
-transform:translateY(-5px);
-background:#1d1d1d;
-}
-
-.big {
-font-size:20px;
-font-weight:bold;
-}
-
+.card:hover {transform:translateY(-5px);background:#1d1d1d;}
+.card img {width:100%;border-radius:12px;margin-bottom:10px;}
+.big {font-size:18px;font-weight:bold;margin-bottom:6px;}
 .btn {
 display:inline-block;
 margin-top:30px;
-padding:18px 30px;
+padding:16px 28px;
 background:#f5c542;
 color:black;
 border-radius:14px;
 text-decoration:none;
 font-weight:bold;
-font-size:16px;
 }
-
-.story {
-font-size:18px;
-color:#ddd;
-max-width:700px;
-}
-
-.highlight {
-color:#f5c542;
-}
-
+.story {max-width:700px;color:#ddd;font-size:18px;}
 </style>
 
 </head>
@@ -110,9 +56,7 @@ color:#f5c542;
 <h1>Дагестан 360°<br>Едем вместе</h1>
 <p class="sub">поездка с нами + Vibe Turistic</p>
 <div class="price">45 000 ₽</div>
-
 <a class="btn" href="https://t.me/USERNAME">Поехать с нами</a>
-
 </div>
 </section>
 
@@ -120,50 +64,42 @@ color:#f5c542;
 
 <section class="section">
 <h2>Это не тур</h2>
-
 <p class="story">
-Это поездка, в которую мы сами едем и берём с собой людей.  
-Без толпы, без автобусов на 40 человек, без ощущения “нас везут”.
+Мы сами едем в Дагестан и берём с собой небольшую группу.  
+Без толпы, без автобусов, без “нас ведут”.
 </p>
-
 <p class="story">
-Просто нормальная компания, сильные места и маршрут, который уже продуман.
+Просто нормальная компания и сильный маршрут.
 </p>
 </section>
 
-<!-- ПРО НАС -->
+<!-- ВИЗУАЛ -->
 
 <section class="section">
-<h2>Кто мы</h2>
-
-<p class="story">
-Мы делаем такие поездки для себя — и зовём тех, с кем хочется ехать.
-</p>
-
-<p class="story">
-Семён отвечает за организацию и атмосферу.  
-На месте будет локальный гид (как в оригинальной программе), чтобы не было “поверхностно”.
-</p>
-
-<p class="story highlight">
-Это баланс: не дикарь и не турпакет.
-</p>
-</section>
-
-<!-- ЧТО БУДЕТ -->
-
-<section class="section">
-<h2>Что будет</h2>
-
+<h2>Как это будет</h2>
 <div class="grid">
-<div class="card">Горы и масштаб</div>
-<div class="card">Старые города и культура</div>
-<div class="card">Вода, каньоны, высота</div>
-<div class="card">Живой формат, не экскурсия</div>
-<div class="card">Нормальный ритм без гонки</div>
-<div class="card">Люди, с которыми хочется ехать</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1606046604972-77cc76aee944">
+Горы и масштаб
 </div>
 
+<div class="card">
+<img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5ce">
+Старые города
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+Ущелья и маршруты
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+Каньоны и вода
+</div>
+
+</div>
 </section>
 
 <!-- ПРОГРАММА -->
@@ -174,92 +110,86 @@ color:#f5c542;
 <div class="grid">
 
 <div class="card">
+<img src="https://images.unsplash.com/photo-1589308078054-8323c7dbf9d1">
 <div class="big">День 1 — Дербент</div>
-Крепость Нарын-Кала, экраноплан «Лунь», город
+Крепость Нарын-Кала, экраноплан «Лунь», прогулка
 </div>
 
 <div class="card">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
 <div class="big">День 2 — Карадахская теснина</div>
-Язык тролля, горные виды
+Язык тролля и виды
 </div>
 
 <div class="card">
+<img src="https://images.unsplash.com/photo-1519681393784-d120267933ba">
 <div class="big">День 3 — Гамсутль</div>
-Заброшенное село и террасы
+Заброшенное село
 </div>
 
 <div class="card">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
 <div class="big">День 4 — Тобот / Матлас</div>
-Водопады и обзорные точки
+Водопады
 </div>
 
 <div class="card">
+<img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5ce">
 <div class="big">День 5 — Сулакский каньон</div>
-Катер + бархан Сарыкум
+Катер + бархан
 </div>
 
 </div>
-
 </section>
 
 <!-- ВХОДИТ -->
 
 <section class="section">
 <h2>Что входит</h2>
-
 <div class="grid">
-<div class="card">Транспорт на все дни</div>
-<div class="card">Проживание (горы + дом)</div>
+<div class="card">Транспорт</div>
+<div class="card">Проживание</div>
 <div class="card">Питание</div>
 <div class="card">Гид</div>
-<div class="card">Экскурсии и билеты</div>
+<div class="card">Экскурсии</div>
 <div class="card">SUP + катер</div>
 </div>
-
 </section>
 
 <!-- НЕ ВХОДИТ -->
 
 <section class="section">
 <h2>Что не входит</h2>
-
 <div class="grid">
 <div class="card">Перелёт</div>
 <div class="card">Личные расходы</div>
 <div class="card">Алкоголь</div>
 <div class="card">Сувениры</div>
-<div class="card">Доп. активности</div>
 </div>
-
 </section>
 
-<!-- ОСНОВНОЕ -->
+<!-- ПОЧЕМУ -->
 
 <section class="section">
-<h2>Основное</h2>
-
+<h2>Почему с нами</h2>
 <div class="grid">
-<div class="card">5 дней</div>
-<div class="card">до 18 человек</div>
-<div class="card">Сбор 8:30</div>
-<div class="card">Вылет после 20:00</div>
+<div class="card">Маленькая группа</div>
+<div class="card">Не тур, а поездка</div>
+<div class="card">Продуманный маршрут</div>
+<div class="card">Нормальная атмосфера</div>
 </div>
-
 </section>
 
 <!-- CTA -->
 
 <section class="section">
-<h2>Поехали с нами</h2>
-
+<h2>Поехали</h2>
 <p class="story">
-Если откликнулось — просто напиши.  
-Расскажем детали и покажем, как всё будет.
+Если откликается — напиши нам.  
+Расскажем детали.
 </p>
 
 <a class="btn" href="https://t.me/USERNAME">Написать в Telegram</a>
-
-<p class="sub">в коллаборации с Vibe Turistic</p>
 
 </section>
 
