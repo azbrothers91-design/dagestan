@@ -8,41 +8,52 @@
 
 <style>
 body {margin:0;font-family:-apple-system,Arial;background:#0b0b0b;color:#fff;}
-.section {padding:90px 20px;max-width:1100px;margin:auto;}
+
+.section {padding:80px 20px;max-width:1000px;margin:auto;}
+
 .hero {
 height:100vh;
 display:flex;
 align-items:center;
-background:
-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),
+background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),
 url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');
 background-size:cover;
 }
-h1 {font-size:56px;line-height:1.1;}
-h2 {font-size:34px;margin-bottom:20px;}
+
+h1 {font-size:56px;}
+h2 {font-size:32px;margin-bottom:20px;}
+
 .price {font-size:40px;color:#f5c542;margin-top:20px;}
-.sub {color:#aaa;margin-top:10px;}
-.grid {display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));}
-.card {
-background:#151515;
-padding:20px;
-border-radius:16px;
-transition:0.3s;
-}
-.card:hover {transform:translateY(-5px);background:#1d1d1d;}
-.card img {width:100%;border-radius:12px;margin-bottom:10px;}
-.big {font-size:18px;font-weight:bold;margin-bottom:6px;}
+
 .btn {
 display:inline-block;
-margin-top:30px;
+margin-top:20px;
 padding:16px 28px;
 background:#f5c542;
 color:black;
-border-radius:14px;
+border-radius:12px;
 text-decoration:none;
 font-weight:bold;
 }
-.story {max-width:700px;color:#ddd;font-size:18px;}
+
+.block-img {
+height:70vh;
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:end;
+}
+
+.overlay {
+background:linear-gradient(transparent, rgba(0,0,0,0.8));
+width:100%;
+padding:40px;
+}
+
+.text {
+max-width:600px;
+}
+
 </style>
 
 </head>
@@ -54,142 +65,73 @@ font-weight:bold;
 <section class="hero">
 <div class="section">
 <h1>Дагестан 360°<br>Едем вместе</h1>
-<p class="sub">поездка с нами + Vibe Turistic</p>
 <div class="price">45 000 ₽</div>
-<a class="btn" href="https://t.me/USERNAME">Поехать с нами</a>
+<a class="btn" href="https://t.me/azbrothers91">Поехать с нами</a>
 </div>
 </section>
 
-<!-- ЭМОЦИЯ -->
+<!-- ДЕРБЕНТ -->
 
-<section class="section">
-<h2>Это не тур</h2>
-<p class="story">
-Мы сами едем в Дагестан и берём с собой небольшую группу.  
-Без толпы, без автобусов, без “нас ведут”.
-</p>
-<p class="story">
-Просто нормальная компания и сильный маршрут.
-</p>
-</section>
-
-<!-- ВИЗУАЛ -->
-
-<section class="section">
-<h2>Как это будет</h2>
-<div class="grid">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1606046604972-77cc76aee944">
-Горы и масштаб
+<section class="block-img" style="background-image:url('https://images.unsplash.com/photo-1589308078054-8323c7dbf9d1');">
+<div class="overlay">
+<div class="text">
+<h2>День 1 — Дербент</h2>
+Крепость Нарын-Кала, экраноплан «Лунь», прогулка по городу
 </div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5ce">
-Старые города
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
-Ущелья и маршруты
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
-Каньоны и вода
-</div>
-
 </div>
 </section>
 
-<!-- ПРОГРАММА -->
+<!-- КАРАДАХ -->
 
-<section class="section">
-<h2>Маршрут</h2>
-
-<div class="grid">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1589308078054-8323c7dbf9d1">
-<div class="big">День 1 — Дербент</div>
-Крепость Нарын-Кала, экраноплан «Лунь», прогулка
+<section class="block-img" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee');">
+<div class="overlay">
+<div class="text">
+<h2>День 2 — Карадахская теснина</h2>
+Язык тролля, узкие ущелья и виды
 </div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
-<div class="big">День 2 — Карадахская теснина</div>
-Язык тролля и виды
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1519681393784-d120267933ba">
-<div class="big">День 3 — Гамсутль</div>
-Заброшенное село
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
-<div class="big">День 4 — Тобот / Матлас</div>
-Водопады
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5ce">
-<div class="big">День 5 — Сулакский каньон</div>
-Катер + бархан
-</div>
-
 </div>
 </section>
 
-<!-- ВХОДИТ -->
+<!-- ГАМСУТЛЬ -->
 
-<section class="section">
-<h2>Что входит</h2>
-<div class="grid">
-<div class="card">Транспорт</div>
-<div class="card">Проживание</div>
-<div class="card">Питание</div>
-<div class="card">Гид</div>
-<div class="card">Экскурсии</div>
-<div class="card">SUP + катер</div>
+<section class="block-img" style="background-image:url('https://images.unsplash.com/photo-1519681393784-d120267933ba');">
+<div class="overlay">
+<div class="text">
+<h2>День 3 — Гамсутль</h2>
+Заброшенное село в горах
+</div>
 </div>
 </section>
 
-<!-- НЕ ВХОДИТ -->
+<!-- ТОБОТ -->
 
-<section class="section">
-<h2>Что не входит</h2>
-<div class="grid">
-<div class="card">Перелёт</div>
-<div class="card">Личные расходы</div>
-<div class="card">Алкоголь</div>
-<div class="card">Сувениры</div>
+<section class="block-img" style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');">
+<div class="overlay">
+<div class="text">
+<h2>День 4 — Тобот / Матлас</h2>
+Водопады и обзорные точки
+</div>
 </div>
 </section>
 
-<!-- ПОЧЕМУ -->
+<!-- СУЛАК -->
 
-<section class="section">
-<h2>Почему с нами</h2>
-<div class="grid">
-<div class="card">Маленькая группа</div>
-<div class="card">Не тур, а поездка</div>
-<div class="card">Продуманный маршрут</div>
-<div class="card">Нормальная атмосфера</div>
+<section class="block-img" style="background-image:url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5ce');">
+<div class="overlay">
+<div class="text">
+<h2>День 5 — Сулакский каньон</h2>
+Катер и бархан Сарыкум
+</div>
 </div>
 </section>
 
 <!-- CTA -->
 
 <section class="section">
-<h2>Поехали</h2>
-<p class="story">
-Если откликается — напиши нам.  
-Расскажем детали.
-</p>
+<h2>Поехали с нами</h2>
+<p>Напиши в Telegram — расскажем детали</p>
 
-<a class="btn" href="https://t.me/USERNAME">Написать в Telegram</a>
+<a class="btn" href="https://t.me/azbrothers91">Написать</a>
 
 </section>
 
