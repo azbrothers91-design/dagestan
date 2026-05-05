@@ -7,27 +7,44 @@
 <title>Дагестан 360 — едем вместе</title>
 
 <style>
-body {margin:0;font-family:-apple-system,Arial;background:#0b0b0b;color:#fff;}
+body {
+margin:0;
+font-family:-apple-system, Arial;
+background:#0b0b0b;
+color:#fff;
+line-height:1.5;
+}
 
-.section {padding:80px 20px;max-width:1000px;margin:auto;}
+.section {
+padding:80px 20px;
+max-width:1000px;
+margin:auto;
+}
 
 .hero {
 height:100vh;
 display:flex;
 align-items:center;
-background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),
+background:
+linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),
 url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');
 background-size:cover;
 }
 
-h1 {font-size:56px;}
+h1 {font-size:56px;line-height:1.1;}
 h2 {font-size:32px;margin-bottom:20px;}
 
-.price {font-size:40px;color:#f5c542;margin-top:20px;}
+.price {
+font-size:42px;
+color:#f5c542;
+margin-top:20px;
+}
+
+.sub {color:#aaa;margin-top:10px;}
 
 .btn {
 display:inline-block;
-margin-top:20px;
+margin-top:30px;
 padding:16px 28px;
 background:#f5c542;
 color:black;
@@ -36,22 +53,34 @@ text-decoration:none;
 font-weight:bold;
 }
 
-.block-img {
-height:70vh;
-background-size:cover;
-background-position:center;
-display:flex;
-align-items:end;
+.grid {
+display:grid;
+gap:16px;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 }
 
-.overlay {
-background:linear-gradient(transparent, rgba(0,0,0,0.8));
-width:100%;
-padding:40px;
+.card {
+background:#151515;
+padding:20px;
+border-radius:14px;
 }
 
-.text {
-max-width:600px;
+.big {
+font-size:18px;
+font-weight:bold;
+margin-bottom:6px;
+}
+
+.story {
+max-width:700px;
+color:#ddd;
+font-size:18px;
+}
+
+.divider {
+height:1px;
+background:#222;
+margin:60px 0;
 }
 
 </style>
@@ -65,73 +94,134 @@ max-width:600px;
 <section class="hero">
 <div class="section">
 <h1>Дагестан 360°<br>Едем вместе</h1>
+<p class="sub">поездка с нами + Vibe Turistic</p>
 <div class="price">45 000 ₽</div>
 <a class="btn" href="https://t.me/azbrothers91">Поехать с нами</a>
 </div>
 </section>
 
-<!-- ДЕРБЕНТ -->
+<!-- ФОРМАТ -->
 
-<section class="block-img" style="background-image:url('https://images.unsplash.com/photo-1589308078054-8323c7dbf9d1');">
-<div class="overlay">
-<div class="text">
-<h2>День 1 — Дербент</h2>
+<section class="section">
+<h2>Мы едем — поехали с нами</h2>
+
+<p class="story">
+Это не классический тур. Мы собираем небольшую группу и едем в Дагестан вместе. Всё организовано в коллаборации с Vibe Turistic.
+</p>
+</section>
+
+<div class="divider"></div>
+
+<!-- ЧТО БУДЕТ -->
+
+<section class="section">
+<h2>Что будет</h2>
+
+<div class="grid">
+<div class="card">Горы, каньоны и масштабные виды</div>
+<div class="card">Старинные города и культура</div>
+<div class="card">Живой формат, не экскурсия</div>
+<div class="card">Комфортный ритм без гонки</div>
+</div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ПРОГРАММА -->
+
+<section class="section">
+<h2>Программа</h2>
+
+<div class="grid">
+
+<div class="card">
+<div class="big">День 1 — Дербент</div>
 Крепость Нарын-Кала, экраноплан «Лунь», прогулка по городу
 </div>
+
+<div class="card">
+<div class="big">День 2 — Карадахская теснина / Язык тролля</div>
+Горные маршруты и виды
+</div>
+
+<div class="card">
+<div class="big">День 3 — Гамсутль</div>
+Заброшенное село и террасы
+</div>
+
+<div class="card">
+<div class="big">День 4 — Тобот / Матлас</div>
+Водопады и панорамы
+</div>
+
+<div class="card">
+<div class="big">День 5 — Сулакский каньон</div>
+Катер, бархан Сарыкум
+</div>
+
 </div>
 </section>
 
-<!-- КАРАДАХ -->
+<div class="divider"></div>
 
-<section class="block-img" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee');">
-<div class="overlay">
-<div class="text">
-<h2>День 2 — Карадахская теснина</h2>
-Язык тролля, узкие ущелья и виды
-</div>
+<!-- ЧТО ВХОДИТ -->
+
+<section class="section">
+<h2>Что входит</h2>
+
+<div class="grid">
+<div class="card">Транспорт на все дни</div>
+<div class="card">Проживание (горы + гостевой дом)</div>
+<div class="card">Питание (завтраки, обеды, ужины)</div>
+<div class="card">Гид</div>
+<div class="card">Экскурсии и билеты</div>
+<div class="card">SUP + катер + кофе-тайм</div>
 </div>
 </section>
 
-<!-- ГАМСУТЛЬ -->
+<div class="divider"></div>
 
-<section class="block-img" style="background-image:url('https://images.unsplash.com/photo-1519681393784-d120267933ba');">
-<div class="overlay">
-<div class="text">
-<h2>День 3 — Гамсутль</h2>
-Заброшенное село в горах
-</div>
+<!-- НЕ ВХОДИТ -->
+
+<section class="section">
+<h2>Что не входит</h2>
+
+<div class="grid">
+<div class="card">Перелёт</div>
+<div class="card">Личные расходы</div>
+<div class="card">Алкоголь</div>
+<div class="card">Сувениры</div>
+<div class="card">Доп. активности</div>
 </div>
 </section>
 
-<!-- ТОБОТ -->
+<div class="divider"></div>
 
-<section class="block-img" style="background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470');">
-<div class="overlay">
-<div class="text">
-<h2>День 4 — Тобот / Матлас</h2>
-Водопады и обзорные точки
-</div>
+<!-- ОСНОВНОЕ -->
+
+<section class="section">
+<h2>Основное</h2>
+
+<div class="grid">
+<div class="card">5 дней</div>
+<div class="card">до 18 человек</div>
+<div class="card">Сбор 8:30</div>
+<div class="card">Вылет после 20:00</div>
 </div>
 </section>
 
-<!-- СУЛАК -->
-
-<section class="block-img" style="background-image:url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5ce');">
-<div class="overlay">
-<div class="text">
-<h2>День 5 — Сулакский каньон</h2>
-Катер и бархан Сарыкум
-</div>
-</div>
-</section>
+<div class="divider"></div>
 
 <!-- CTA -->
 
 <section class="section">
-<h2>Поехали с нами</h2>
-<p>Напиши в Telegram — расскажем детали</p>
+<h2>Хочешь поехать?</h2>
 
-<a class="btn" href="https://t.me/azbrothers91">Написать</a>
+<p class="story">
+Напиши нам — расскажем детали и ответим на вопросы
+</p>
+
+<a class="btn" href="https://t.me/azbrothers91">Написать в Telegram</a>
 
 </section>
 
